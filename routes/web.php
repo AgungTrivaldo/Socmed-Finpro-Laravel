@@ -28,3 +28,7 @@ Route::get('/', function () {
 Route::get('/createevent', function () {
     return view('eventcrt');
 });
+
+Route::get('/profile', function (){
+    return view('profile');
+});

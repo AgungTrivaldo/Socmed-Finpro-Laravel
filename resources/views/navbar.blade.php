@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
   <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>Tulong</title>
   <style>
     .main-content {
@@ -78,7 +79,7 @@
             <!-- Post title -->
             <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Forum</a>
             <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Event</a>
-            <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Menu</a>
+            <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Upcoming Event</a>
             <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Menu</a>
             <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Menu</a>
             <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Menu</a>
@@ -129,20 +130,30 @@
           </div>
         </div>
       </div>
-      <div class="w-full mb-1 my-1">
-        <!-- Post card -->
-        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden mb-4">
-          <!-- Post content -->
-          <div class="p-4">
-            <!-- Post title -->
-            <h5 class="font-bold mb-4">@sapayaa</h5>
-            <p class="text-sm text-gray-600 dark:text-gray-300">INGFOOOOOOO</p>
-            <!-- Post image -->
-            <img class=" p-4" src=".\img\Dika.jpg" alt="" />
-          </div>
+
+      <a href="#" class="block max-w-3xl mx-auto mt-4 bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 hover:bg-gray-100 dark:hover:bg-gray-600">
+        <div class="flex space-x-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-gray-300 rounded-full overflow-hidden">
+                <img src="./img/koceng.jpg" alt="Profile Picture" class="w-full h-full object-cover rounded-full">
+            </div>
+            <div>
+                <h3 class="font-semibold text-gray-900 dark:text-white">@MasLorem</h3>
+                <p class="mt-2 text-gray-600 dark:text-gray-300">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, architecto. Placeat id temporibus hic dolore esse fuga dolores iusto delectus, recusandae autem neque optio impedit ducimus ex dicta maiores enim! Tenetur rerum laborum porro, nulla, cumque totam assumenda dolores a fugit placeat ad saepe vitae, commodi eum voluptas. Praesentium tempore provident quo? Consectetur esse dolorum iure veritatis. Autem, vel non!
+                </p>
+                <!-- Post image -->
+                <img class="w-48 h-48 object-cover mt-4" src="./img/Dika.jpg" alt="Post Image" />
+                <!-- Likes button -->
+                <div class="flex justify-start mt-4">
+                    <button class="text-gray-600 dark:text-gray-300 hover:text-red-500 dark:hover:text-red-500 focus:outline-none">
+                        <i class="fas fa-heart text-2xl"></i>
+                    </button>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+    </a>
+    
+      
 
     <div class="right-section bg-gray-100 dark:bg-gray-800 p-4">
       <!-- Suggest section -->
@@ -181,7 +192,7 @@
             </svg>
             <span class="text-sm font-medium">New post</span>
         </a>
-           
+
 
                 <div>
                     <a href="#" class="flex items-center px-5 py-2 border-b border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600 hover:text-gray-900 dark:hover:text-white dark:border-gray-600">
@@ -212,8 +223,8 @@
       </button>
   </div>
   
-   <!-- Main modal -->
-   <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <!-- Main modal -->
+    <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative p-4 w-full max-w-md max-h-full">
         <!-- Modal content -->
         <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
