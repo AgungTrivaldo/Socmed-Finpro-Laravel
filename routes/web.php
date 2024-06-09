@@ -36,3 +36,7 @@ Route::get('/profile', function (){
 Route::get('/event', function () {
     return view('event');
 });
+
+Route::get('/myevent', function () {
+    return view('myevent');
+});
