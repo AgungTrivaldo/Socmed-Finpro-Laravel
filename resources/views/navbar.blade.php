@@ -92,97 +92,43 @@
             <!-- Post image -->
             <img src="/path/to/post/image.jpg" alt="" />
           </div>
-        </div>
-      </div>
-    </div>
-
+          </div>
+          </div>
+          </div>
+          
+              <div class="right-section bg-gray-100 dark:bg-gray-800 p-4">
+                <!-- Suggest section -->
+                <div class="my-10">
+                  <h5 class="font-bold mb-4">Suggested friends</h5>
+                </div>
+                <!-- User cards -->
+                <div class="w-full mb-4">
+                  <!-- User card -->
+                  <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden mb-4">
+                    <!-- User content -->
+                    <div class="p-4">
+                      <!-- User name -->
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <!-- User profile picture -->
+                      <img src="/path/to/user/profile.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
     <div class="middle-section bg-gray-100 dark:bg-gray-800 p-4">
       <!-- Post section -->
-      <div class="my-10 ">
-        <h5 class="font-bold mb-4">Recent Posts</h5>
-      </div>
+      @yield('content')
 
-
-      <!-- Post cards -->
-      <div class="w-full mb-4 my-1">
-        <!-- Post card -->
-        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden mb-4">
-          <!-- Post content -->
-          <div class="p-4">
-            <!-- Post title -->
-            <h5 class="font-bold mb-4">@sapayaa</h5>
-            <p class="text-sm text-gray-600 dark:text-gray-300">INGFOOOOOOO</p>
-            <!-- Post image -->
-            <img class="p-4 " src=".\img\koceng.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-      <div class="w-full mb-4 my-1">
-        <!-- Post card -->
-        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden mb-4">
-          <!-- Post content -->
-          <div class="p-4">
-            <!-- Post title -->
-            <h5 class="font-bold mb-4">@sapayaa</h5>
-            <p class="text-sm text-gray-600 dark:text-gray-300">INGFOOOOOOO</p>
-            <!-- Post image -->
-            <img class="p-4" src="/path/to/post/image.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-
-      <a href="#" class="block max-w-3xl mx-auto mt-4 bg-white dark:bg-gray-700 rounded-lg shadow-md p-4 hover:bg-gray-100 dark:hover:bg-gray-600">
-        <div class="flex space-x-4">
-            <div class="flex-shrink-0 w-12 h-12 bg-gray-300 rounded-full overflow-hidden">
-                <img src="./img/koceng.jpg" alt="Profile Picture" class="w-full h-full object-cover rounded-full">
-            </div>
-            <div>
-                <h3 class="font-semibold text-gray-900 dark:text-white">@MasLorem</h3>
-                <p class="mt-2 text-gray-600 dark:text-gray-300">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, architecto. Placeat id temporibus hic dolore esse fuga dolores iusto delectus, recusandae autem neque optio impedit ducimus ex dicta maiores enim! Tenetur rerum laborum porro, nulla, cumque totam assumenda dolores a fugit placeat ad saepe vitae, commodi eum voluptas. Praesentium tempore provident quo? Consectetur esse dolorum iure veritatis. Autem, vel non!
-                </p>
-                <!-- Post image -->
-                <img class="w-48 h-48 object-cover mt-4" src="./img/Dika.jpg" alt="Post Image" />
-                <!-- Likes button -->
-                <div class="flex justify-start mt-4">
-                    <button class="text-gray-600 dark:text-gray-300 hover:text-red-500 dark:hover:text-red-500 focus:outline-none">
-                        <i class="fas fa-heart text-2xl"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </a>
-    
-      
-
-    <div class="right-section bg-gray-100 dark:bg-gray-800 p-4">
-      <!-- Suggest section -->
-      <div class="my-10">
-        <h5 class="font-bold mb-4">Suggested friends</h5>
-      </div>
-      <!-- User cards -->
-      <div class="w-full mb-4">
-        <!-- User card -->
-        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden mb-4">
-          <!-- User content -->
-          <div class="p-4">
-            <!-- User name -->
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <!-- User profile picture -->
-            <img src="/path/to/user/profile.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
     <div data-dial-init class="fixed bottom-5 right-6 group">
       <div id="speed-dial-menu-dropdown-alternative" class="flex flex-col justify-end hidden py-1 mb-4 space-y-2 bg-white border border-gray-100 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
           <div class="text-sm text-gray-500 dark:text-gray-300">
