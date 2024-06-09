@@ -31,7 +31,7 @@
     }
     .middle-section {
       flex: 1;
-      margin-left: 30%;
+      margin-left: 45%;
       margin-right: 25%;
       overflow-y: auto;
     }
