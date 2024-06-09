@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
   <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <title>Tulong</title>
   <style>
     .main-content {
@@ -78,7 +79,7 @@
             <!-- Post title -->
             <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Forum</a>
             <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Event</a>
-            <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Menu</a>
+            <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Upcoming Event</a>
             <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Menu</a>
             <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Menu</a>
             <a href="#" class="font-bold mb-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent block">Menu</a>
@@ -91,87 +92,43 @@
             <!-- Post image -->
             <img src="/path/to/post/image.jpg" alt="" />
           </div>
-        </div>
-      </div>
-    </div>
-
+          </div>
+          </div>
+          </div>
+          
+              <div class="right-section bg-gray-100 dark:bg-gray-800 p-4">
+                <!-- Suggest section -->
+                <div class="my-10">
+                  <h5 class="font-bold mb-4">Suggested friends</h5>
+                </div>
+                <!-- User cards -->
+                <div class="w-full mb-4">
+                  <!-- User card -->
+                  <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden mb-4">
+                    <!-- User content -->
+                    <div class="p-4">
+                      <!-- User name -->
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <h5 class="font-bold mb-4">@MentionCom</h5>
+                      <!-- User profile picture -->
+                      <img src="/path/to/user/profile.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
     <div class="middle-section bg-gray-100 dark:bg-gray-800 p-4">
       <!-- Post section -->
-      <div class="my-10 ">
-        <h5 class="font-bold mb-4">Recent Posts</h5>
-      </div>
+      @yield('content')
 
-
-      <!-- Post cards -->
-      <div class="w-full mb-4 my-1">
-        <!-- Post card -->
-        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden mb-4">
-          <!-- Post content -->
-          <div class="p-4">
-            <!-- Post title -->
-            <h5 class="font-bold mb-4">@sapayaa</h5>
-            <p class="text-sm text-gray-600 dark:text-gray-300">INGFOOOOOOO</p>
-            <!-- Post image -->
-            <img class="p-4 " src=".\img\koceng.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-      <div class="w-full mb-4 my-1">
-        <!-- Post card -->
-        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden mb-4">
-          <!-- Post content -->
-          <div class="p-4">
-            <!-- Post title -->
-            <h5 class="font-bold mb-4">@sapayaa</h5>
-            <p class="text-sm text-gray-600 dark:text-gray-300">INGFOOOOOOO</p>
-            <!-- Post image -->
-            <img class="p-4" src="/path/to/post/image.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-      <div class="w-full mb-1 my-1">
-        <!-- Post card -->
-        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden mb-4">
-          <!-- Post content -->
-          <div class="p-4">
-            <!-- Post title -->
-            <h5 class="font-bold mb-4">@sapayaa</h5>
-            <p class="text-sm text-gray-600 dark:text-gray-300">INGFOOOOOOO</p>
-            <!-- Post image -->
-            <img class=" p-4" src=".\img\Dika.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="right-section bg-gray-100 dark:bg-gray-800 p-4">
-      <!-- Suggest section -->
-      <div class="my-10">
-        <h5 class="font-bold mb-4">Suggested friends</h5>
-      </div>
-      <!-- User cards -->
-      <div class="w-full mb-4">
-        <!-- User card -->
-        <div class="bg-white dark:bg-gray-700 rounded-lg shadow-md overflow-hidden mb-4">
-          <!-- User content -->
-          <div class="p-4">
-            <!-- User name -->
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <h5 class="font-bold mb-4">@MentionCom</h5>
-            <!-- User profile picture -->
-            <img src="/path/to/user/profile.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </div>
     <div data-dial-init class="fixed bottom-5 right-6 group">
       <div id="speed-dial-menu-dropdown-alternative" class="flex flex-col justify-end hidden py-1 mb-4 space-y-2 bg-white border border-gray-100 rounded-lg shadow-sm dark:bg-gray-700 dark:border-gray-600">
           <div class="text-sm text-gray-500 dark:text-gray-300">
@@ -181,8 +138,6 @@
             </svg>
             <span class="text-sm font-medium">New post</span>
         </a>
-           
-
                 <div>
                     <a href="#" class="flex items-center px-5 py-2 border-b border-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600 hover:text-gray-900 dark:hover:text-white dark:border-gray-600">
                         <svg class="w-3.5 h-3.5 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -212,8 +167,8 @@
       </button>
   </div>
   
-   <!-- Main modal -->
-   <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <!-- Main modal -->
+    <div id="authentication-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div class="relative p-4 w-full max-w-md max-h-full">
         <!-- Modal content -->
         <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">

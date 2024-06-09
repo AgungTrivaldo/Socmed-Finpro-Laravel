@@ -18,7 +18,7 @@ Route::get('/login', function () {
 });
 
 Route::get('/mainpage', function(){
-    return view('navbar');
+    return view('forum');
 });
 
 Route::get('/', function () {
@@ -27,4 +27,12 @@ Route::get('/', function () {
 
 Route::get('/createevent', function () {
     return view('eventcrt');
+});
+
+Route::get('/profile', function (){
+    return view('profile');
+});
+
+Route::get('/event', function () {
+    return view('event');
 });
