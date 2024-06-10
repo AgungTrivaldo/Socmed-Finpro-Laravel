@@ -16,7 +16,7 @@
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Event Title</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi officia modi fuga vel, similique aliquam, voluptas cupiditate exercitationem sunt inventore nam architecto, ipsam fugit accusantium. Corrupti eum rerum molestiae in.
-                  Rem inventore sit quod tempore saepe iusto ex pariatur. Nobis repellat voluptatum, illum amet facilis porro corporis cum, perspiciatis alias quas fugiat odit aliquid sequi qui quae nostrum, nisi veritatis!
+                  Rem inventore sit quod tempore saepe iusto ex pariatur. Nobis titit repellat voluptatum, illum amet facilis porro corporis cum, perspiciatis alias quas fugiat odit aliquid sequi qui quae nostrum, nisi veritatis!
                   Iste soluta illo hic, est laborum autem consequuntur molestias iure consequatur similique reiciendis tempora voluptatem magnam nihil totam assumenda modi, nulla architecto distinctio maxime non? Nemo ipsum quod sequi ab.</p>
                 <div class="flex justify-between mb-1">
                   <span class="text-base font-semibold text-black dark:text-white">Attendees</span>
