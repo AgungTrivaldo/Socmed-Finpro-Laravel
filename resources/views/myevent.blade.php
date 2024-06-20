@@ -73,27 +73,4 @@
     </div>
 </div>
 
-<script>
-    document.getElementById('cancelButton').addEventListener('click', function () {
-        document.getElementById('popup-modal').classList.remove('hidden');
-        document.getElementById('popup-modal').classList.add('flex');
-    });
-
-    document.getElementById('closeModalButton').addEventListener('click', function () {
-        document.getElementById('popup-modal').classList.add('hidden');
-        document.getElementById('popup-modal').classList.remove('flex');
-    });
-
-    document.getElementById('cancelModalButton').addEventListener('click', function () {
-        document.getElementById('popup-modal').classList.add('hidden');
-        document.getElementById('popup-modal').classList.remove('flex');
-    });
-
-    document.getElementById('confirmButton').addEventListener('click', function () {
-        // Add your confirm action here
-        document.getElementById('popup-modal').classList.add('hidden');
-        document.getElementById('popup-modal').classList.remove('flex');
-    });
-</script>
-
 @endsection

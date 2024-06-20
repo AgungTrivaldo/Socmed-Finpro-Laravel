@@ -41,6 +41,18 @@ Route::get('/event', function () {
     return view('event');
 });
 
+Route::get('/eventjoined', function () {
+    return view('eventjoined');
+});
 Route::get('/myevent', function () {
     return view('myevent');
+});
+Route::get('/detailevent', function () {
+    return view('detailevent');
+});
+Route::get('/editprofile', function () {
+    return view('editprofile');
+});
+Route::get('/comment', function () {
+    return view('commentcard');
 });
